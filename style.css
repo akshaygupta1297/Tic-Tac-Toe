@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.row1 {
+    display: flex;
+    /* border-bottom: 2px solid wheat; */
+    width: 25%;
+    height: 100px;
+}
+
+.row1 div {
+    display: flex;
+    border: 2px solid white;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large;
+}
+
+.row2 {
+    display: flex;
+    /* border: 2px solid wheat; */
+    width: 25%;
+    height: 100px;
+}
+
+.row2 div {
+    display: flex;
+    border: 2px solid white;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large;
+}
+
+.row3 {
+    display: flex;
+    /* border: 2px solid wheat; */
+    width: 25%;
+    height: 100px;
+}
+
+.row3 div {
+    display: flex;
+    border: 2px solid white;
+    border-color: white;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large;
+}
+
+.btop {
+    border-top: 0px;
+}
+
+.bbottom {
+    border-bottom: 0px;
+}
+
+.bleft {
+    border-left: 0px;
+}
+
+.bright {
+    border-right: 0px;
+}
+
+.reset {
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: rgb(197, 147, 243);
+    width: 50px;
+    height: 34px;
+}
