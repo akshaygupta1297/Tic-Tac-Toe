@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: wheat;
 }
 
 .main {
@@ -61,6 +62,10 @@
     font-size: xxx-large;
 }
 
+.boxtext {
+    color: rgb(68, 127, 236);
+}
+
 .btop {
     border-top: 0px;
 }
@@ -75,6 +80,11 @@
 
 .bright {
     border-right: 0px;
+}
+
+.info {
+    color: blueviolet;
+    font-size: 25px;
 }
 
 .reset {
